@@ -1,0 +1,24 @@
+footer{
+    background-color: #141414;
+    text-align: center;
+}
+
+.line{
+    width: 85%;
+}
+
+.footer-text{
+    color: #808080;
+}
+
+.logo{
+    width: 60%;
+}
+
+.socials{
+    width: 40%;
+}
+
+.footer-content{
+    display: inline-block;
+}

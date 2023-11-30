@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "black-stream-403606": {
+      "hosting": {
+        "bhraman": [
+          "black-stream-403606"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "black-stream-403606"
+  }
+}

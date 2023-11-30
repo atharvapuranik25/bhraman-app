@@ -1,0 +1,28 @@
+.navbar {
+    background-color: rgba(255,231,182,0.2);
+    height: 93px;
+}
+
+.logo {
+    width: 187.5px;
+    height: 93px;
+}
+
+.login {
+    width: 117px;
+    height: 33px;
+}
+
+.calender-icon {
+    width: 75%;   
+}
+
+.sep-line {
+    width: 75%;
+}
+
+.wishlist-icon {
+    width: 75%;
+}
+
+

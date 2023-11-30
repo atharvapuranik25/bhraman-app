@@ -1,0 +1,51 @@
+<div class="filtersa ">
+    <div class="">
+        <form class="row" (submit)="onSubmit()">
+
+            <div class="col trip">
+                <p>Trip &nbsp;</p>
+            </div>
+
+            <div class="col">
+                <label for="city">City:</label>
+                <select class="city" id="city" name="city">
+                    <option value="Ujjain">Ujjain</option>
+                    <option value="Varanasi">Varanasi</option>
+                    <option value="Kedarnath">Kedarnath</option>
+                    <option value="Haridwar">Haridwar</option>
+                    <option value="Tirupati">Tirupati</option>
+                </select>
+            </div>
+
+            <div class="col">
+                <label for="startDate">Start Date:</label>
+                <input class="startDate" type="date" id="startDate" name="startDate">
+            </div>
+
+            <div class="col">
+                <label for="returnDate">Return Date:</label>
+                <input class="returnDate" type="date" id="returnDate" name="returnDate">
+            </div>
+
+            <div class="col">
+                <label for="passengers">Passengers:</label>
+                <input class="passengers" type="number" id="passengers" name="passengers" placeholder="Passengers">
+            </div>
+
+            <div class="col">
+                <label for="budget">Budget:</label>
+                <input class="budget" type="number" id="budget" name="budget" placeholder="Budget">
+            </div>
+
+            <div class="col">
+                <label for="travelPref">Preferences:</label>
+                <input class="travelPref" type="text" id="travelPref" name="travelPref" placeholder="Travel Preferences">
+            </div>
+
+            <div class="col">
+                <input type="image" src="../../../assets/search_button.png" alt="Submit" class="submit">
+            </div>
+
+        </form>
+    </div>
+</div>

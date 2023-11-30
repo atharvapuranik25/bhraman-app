@@ -1,0 +1,23 @@
+.hero-element {
+    background-color: #faa432;
+    border-radius: 40px;
+    height: 450px;
+    z-index: -2;
+    padding: 50px;
+    margin-top: -40px;
+    position: relative;
+}
+
+.hero-img{
+    margin-top: 30px;
+    width: 60%;
+    float: right;
+}
+
+.img-dest {
+    width: 100%;
+}
+
+.testimonial-img {
+    width: 100%;
+}
