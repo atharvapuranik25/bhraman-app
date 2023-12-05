@@ -1,9 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
-
-import re
 import json
-
 import vertexai
 from vertexai.language_models import TextGenerationModel
 
@@ -56,3 +53,4 @@ def get_data():
 
 if __name__ == '__main__':
     app.run()
+

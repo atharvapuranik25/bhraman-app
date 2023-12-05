@@ -1,12 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import {
-  Auth,
-  GoogleAuthProvider,
-  signInWithPopup,
-  signOut,
-  UserCredential
-} from '@angular/fire/auth';
-
+import { Auth, GoogleAuthProvider, signInWithPopup, signOut, UserCredential } from '@angular/fire/auth';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 
 @Injectable({
